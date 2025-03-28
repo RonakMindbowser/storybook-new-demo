@@ -20,6 +20,12 @@ export const Basic: Story = {
     isError: false,
     errorMessage: '',
   },
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/84ocjSNIR78QP9bgootSJJ/PUG-Designs?node-id=224-25403&t=qKEQfgaz3PZQ8PoC-4',
+    },
+  },
 };
 
 export const WithError: Story = {
