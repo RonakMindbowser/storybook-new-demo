@@ -17,5 +17,15 @@ export const Basic: Story = {
     text: 'Hello World',
     color: 'purple',
     onPress: action('onPress'),
+    textColor: 'red',
+  },
+};
+
+export const WithIcon: Story = {
+  args: {
+    text: '😀 😎 👍 💯',
+    color: 'purple',
+    onPress: action('onPress'),
+    textColor: 'red',
   },
 };
