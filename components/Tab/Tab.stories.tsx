@@ -12,4 +12,11 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const SimpleTab: Story = {};
+export const SimpleTab: Story = {
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/PSFRpbxufurIGDgKTG31Lw/Nuvance-Health---Myca?node-id=15-935&t=dvxZT1DMGnfhsFTG-4',
+    },
+  },
+};
