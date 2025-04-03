@@ -71,6 +71,7 @@
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
     "prettier": "2.8.8",
+    "raw-loader": "^4.0.2",
     "react-test-renderer": "18.3.1",
     "storybook": "^8.3.5",
     "typescript": "5.0.4"

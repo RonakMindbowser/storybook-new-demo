@@ -1,7 +1,8 @@
 // stories/MyButton.stories.tsx
 import type {Meta, StoryObj} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
-import {MyButton} from '../components/Button';
+import {MyButton} from '../../src/components/Button';
+import ButtonSource from '!!raw-loader!../../src/components/Button.tsx';
 
 const meta = {
   title: 'components/MyButton',
@@ -18,6 +19,18 @@ export const Basic: Story = {
     color: 'purple',
     onPress: action('onPress'),
     textColor: 'red',
+  },
+  parameters: {
+    docs: {
+      source: {
+        language: 'tsx',
+        type: 'code',
+        // code: ButtonCode,
+        code: ButtonSource,
+        of: MyButton,
+        dark: false,
+      },
+    },
   },
 };
 

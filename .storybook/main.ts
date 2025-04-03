@@ -30,4 +30,17 @@ module.exports = {
   typescript: {
     reactDocgen: 'react-docgen-typescript',
   },
+  // webpack: config => {
+  //   config.module.rules.push({
+  //     test: /\.tsx?$/,
+  //     use: 'raw-loader',
+  //   });
+  //   return config;
+  // },
+  rules: [
+    {
+      test: /\.tsx?$/,
+      use: 'raw-loader',
+    },
+  ],
 };
