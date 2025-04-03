@@ -1,7 +1,7 @@
 // stories/MyButton.stories.tsx
 import type {Meta, StoryObj} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
-import {MyButton} from './Button';
+import {MyButton} from '../components/Button';
 
 const meta = {
   title: 'components/MyButton',

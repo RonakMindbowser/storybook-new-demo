@@ -1,7 +1,7 @@
 // stories/InputField.stories.tsx
 import type {Meta, StoryObj} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
-import Tab from './Tab';
+import Tab from '../components/Tab';
 
 const meta = {
   title: 'components/Tab',

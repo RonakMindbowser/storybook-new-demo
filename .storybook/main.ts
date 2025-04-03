@@ -1,8 +1,8 @@
 /** @type{import("@storybook/react-webpack5").StorybookConfig} */
 module.exports = {
   stories: [
-    '../components/**/*.stories.mdx',
-    '../components/**/*.stories.@(js|jsx|ts|tsx)',
+    // '../components/**/*.stories.mdx',
+    '../src/stories/*.stories.?(ts|tsx|js|jsx)',
   ],
 
   addons: [
@@ -12,6 +12,8 @@ module.exports = {
     '@chromatic-com/storybook',
     '@storybook/addon-react-native-web',
     '@storybook/addon-designs',
+    '@storybook/addon-storysource',
+    '@storybook/addon-docs', // 👈 Also add this
   ],
 
   framework: {
@@ -22,6 +24,7 @@ module.exports = {
   docs: {
     autodocs: true,
     toc: true, // 👈 Enables the table of contents
+    defaultName: 'Documentation',
   },
 
   typescript: {
