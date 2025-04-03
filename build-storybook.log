@@ -1,12 +1,13 @@
-$ storybook build --output-dir=/var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--15301-iw0jw3np1rCR
+$ storybook build --output-dir=/var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--71692-9KxvTkkg6Ebp
 [1m@storybook/core v8.6.11
 [22m
-info => Cleaning outputDir: [36m../../../../../../../../../../var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--15301-iw0jw3np1rCR[39m
+info => Cleaning outputDir: [36m../../../../../../../../../../var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--71692-9KxvTkkg6Ebp[39m
 info => Loading presets
+info Found existing addon "@storybook/addon-docs", skipping.
+info Found existing addon "@storybook/addon-docs", skipping.
 info => Building manager..
-info => Manager built ([38;2;181;126;229m141 ms[39m)
+info => Manager built ([38;2;181;126;229m158 ms[39m)
 info => Building preview..
-WARN No story files found for the specified pattern: [34mcomponents/**/*.stories.mdx[39m
 info Addon-docs: using MDX3
 info => Using implicit CSS loaders
 Using @react-native/babel-preset
@@ -16,14 +17,13 @@ WARN Module not found: Error: Can't resolve '@storybook/test' in '/Users/ronak.k
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
 WARN Assets: 
-WARN   202.55d7955e.iframe.bundle.js (505 KiB)
-WARN   304.68f9be7a.iframe.bundle.js (981 KiB)
+WARN   832.bcf4c45d.iframe.bundle.js (1.61 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
-WARN   main (517 KiB)
-WARN       runtime~main.73f5c2b7.iframe.bundle.js
-WARN       202.55d7955e.iframe.bundle.js
-WARN       main.5dde912e.iframe.bundle.js
+WARN   main (1.62 MiB)
+WARN       runtime~main.88a0a34e.iframe.bundle.js
+WARN       832.bcf4c45d.iframe.bundle.js
+WARN       main.681ab76f.iframe.bundle.js
 WARN 
-info => Preview built ([38;2;181;126;229m8.06 s[39m)
-info => Output directory: /var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--15301-iw0jw3np1rCR
+info => Preview built ([38;2;181;126;229m8.91 s[39m)
+info => Output directory: /var/folders/ss/p6m3hv853gb77bp7tkrstdws76rthf/T/chromatic--71692-9KxvTkkg6Ebp
