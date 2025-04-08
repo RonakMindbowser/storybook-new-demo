@@ -16,7 +16,7 @@ export const SimpleBreadcrumbs: Story = {
   parameters: {
     design: {
       type: 'figma',
-      //   url: 'https://www.figma.com/design/PSFRpbxufurIGDgKTG31Lw/Nuvance-Health---Myca?node-id=15-935&t=dvxZT1DMGnfhsFTG-4',
+      url: 'https://www.figma.com/design/PSFRpbxufurIGDgKTG31Lw/Nuvance-Health---Myca?node-id=93-6547&t=C1EPmadYnGdNwitn-4',
     },
     docs: {
       source: {
